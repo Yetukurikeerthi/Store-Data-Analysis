@@ -1,31 +1,67 @@
-# FlexAluminum Production Performance Analysis
-**Business Intelligence & Operational Excellence Project**
+Store Sales Excel Dashboard
+📊 Dashboard Preview
+<img src="Screenshot 2026-03-01 173333.png" alt="Store Dashboard" width="500">
 
-## 📌 Project Overview
-This project focuses on identifying the root causes of a production efficiency decline at FlexAluminum. By analyzing three months of shift-level production data, I identified a yield drop from **92.7% to 86.2%** and developed a data-driven 90-day recovery roadmap.
+📌 Project Overview
+This project is an interactive Excel dashboard created to analyze the 2026 annual sales data for Vrinda Store. The analysis identifies key consumer trends, high-performing regions, and demographic breakdowns to help the business improve its marketing strategy.
 
-## 📊 Key Insights
-* **The Problem:** A widening gap between planned and actual production resulting in a loss of ~27,800 tons.
-* **Root Causes:** * **Setup & Tool Changes:** Accounted for over 5,300 minutes of downtime.
-    * **Material Shortages:** Caused significant production spikes (notably a 483-minute loss in Week 19).
-    * **Quality Erosion:** Scrap rates increased nearly 10x from March to the April peak.
-* **Financial Impact:** Estimated recovery value of **$160,000/month** in incremental margin.
+The project includes data cleaning, processing, and advanced visualization using Microsoft Excel.
 
-## 🛠️ Tools & Technologies
-* **Excel:** Data cleaning, Pivot Tables, and KPI modeling (Yield % and Scrap Rate %).
-* **Python (Pandas/Matplotlib/Seaborn):** Advanced data visualization and trend analysis.
-* **Business Intelligence:** Pareto (80/20) Analysis and Root Cause Identification.
+🛠 Tools Used
+Microsoft Excel
 
-## 📂 Repository Structure
-* `FlexAluminum_Production_Database_Analyzed.xlsx`: The source dataset with calculated KPIs.
-* `FlexAluminum_Performance_Report.pdf`: The final strategic presentation for management.
-* `/visualizations`: High-resolution charts (Production Trends, Downtime Pareto, Yield Stability).
+Pivot Tables & Pivot Charts
 
-## 🚀 Proposed Solutions
-1.  **Inventory Dashboard:** Real-time supply chain integration to prevent material-driven idle time.
-2.  **SMED Implementation:** Standardizing tool changes to reduce transition downtime by 20-30%.
-3.  **Predictive Maintenance:** Moving from reactive to scheduled maintenance to stabilize quality/scrap rates.
+Data Cleaning (Handling Nulls & Standardizing Gender)
 
----
-**Author:** Keerthi Yetukuri 
-**Date:** February 2026  
+Advanced Excel Formulas
+
+Slicers for Interactivity
+
+Data Categorization (Age Grouping)
+
+📈 Dashboard Features
+1️⃣ Orders vs. Sales Trend
+Tracks the monthly performance of orders and total revenue.
+
+Identifies peak shopping months (March shows the highest sales).
+
+2️⃣ Men vs. Women Analysis
+Compares purchasing power between genders.
+
+Insight: Women are responsible for ~65% of total sales.
+
+3️⃣ Order Status Breakdown
+Visualizes the percentage of successful deliveries vs. returns and cancellations.
+
+Helps monitor logistics and customer satisfaction.
+
+4️⃣ Top 5 States
+Identifies the highest-revenue states (Maharashtra, Karnataka, and Uttar Pradesh lead the list).
+
+5️⃣ Age & Gender Demographics
+Breaks down customers into Adult, Senior, and Teenager categories.
+
+Highlights that the Adult age group is the primary consumer segment.
+
+6️⃣ Channel Analysis
+Shows which platforms (Amazon, Flipkart, Myntra, etc.) drive the most orders.
+
+🔎 Key Insights
+Primary Target: Women aged 30-49 years (Adults) are the most profitable segment.
+
+Top Channels: Amazon, Myntra, and Flipkart contribute to over 80% of total sales.
+
+Top Region: Maharashtra is the leading state in terms of order volume.
+
+Strategic Goal: Marketing efforts should focus on "Adult Women" on top-tier e-commerce platforms during peak months like March.
+
+📂 Files Included
+Store Data Analysis.xlsx → Final Excel dashboard and cleaned data.
+
+README.md → Project documentation.
+
+Dashboard_Screenshot.png → Visual preview of the work.
+
+👤 Author
+Keerthi Yetukuri Data Analyst
